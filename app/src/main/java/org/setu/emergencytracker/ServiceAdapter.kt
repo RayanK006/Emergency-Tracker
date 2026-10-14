@@ -7,11 +7,11 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class PlacedMarkAdapter(
+class ServiceAdapter(
     private var marks: List<Service>,
     private val onEdit: (Service) -> Unit,
     private val onDelete: (Service) -> Unit
-) : RecyclerView.Adapter<PlacedMarkAdapter.MarkViewHolder>() {
+) : RecyclerView.Adapter<ServiceAdapter.MarkViewHolder>() {
 
     class MarkViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {
