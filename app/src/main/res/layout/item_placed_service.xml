@@ -12,10 +12,10 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/mainTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Home"
+            android:text="Service Name"
             android:textSize="20sp"
             android:textStyle="bold" />
 
