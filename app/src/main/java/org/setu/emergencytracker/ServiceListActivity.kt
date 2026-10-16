@@ -48,6 +48,7 @@ class ServiceListActivity : AppCompatActivity() {
         }
     }
 
+
     override fun onResume() {
         super.onResume()
 

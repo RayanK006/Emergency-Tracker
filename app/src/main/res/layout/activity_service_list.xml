@@ -7,11 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".ServiceListActivity">
 
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="516dp"
-        android:layout_height="0dp"
+        android:layout_width="505dp"
+        android:layout_height="68dp"
         android:layout_marginTop="16dp"
         android:background="@color/navyblue"
         android:padding="16dp"
@@ -26,8 +25,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/serviceRecyclerView"
-        android:layout_width="415dp"
-        android:layout_height="573dp"
+        android:layout_width="413dp"
+        android:layout_height="587dp"
         android:clipToPadding="false"
         android:paddingBottom="8dp"
         app:layout_constraintBottom_toTopOf="@id/returnButton"
@@ -48,4 +47,4 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
