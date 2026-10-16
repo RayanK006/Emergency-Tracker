@@ -65,12 +65,14 @@
                 android:id="@+id/saveButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightpink"
                 android:text="Save" />
 
             <Button
                 android:id="@+id/cancelButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/darkblue"
                 android:text="Cancel" />
 
         </LinearLayout>

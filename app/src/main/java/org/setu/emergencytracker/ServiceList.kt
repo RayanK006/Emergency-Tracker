@@ -1,7 +1,4 @@
 package org.setu.emergencytracker
-
-
-
 import java.util.concurrent.atomic.AtomicLong
 
 class ServiceList {

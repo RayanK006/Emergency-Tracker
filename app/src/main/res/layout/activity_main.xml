@@ -18,32 +18,37 @@
         <TextView
             android:id="@+id/mainTitle"
             android:layout_width="match_parent"
-            android:layout_height="47dp"
+            android:layout_height="48dp"
+            android:background="@color/navyblue"
+            android:textAlignment="center"
             android:text="Emergency Services"
+            android:textColor="@color/white"
             android:textSize="32sp"
             android:textStyle="bold" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-1dp">
-
-        <Button
-            android:id="@+id/ViewServicesbutton"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="View Services " />
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/addServicesbutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add Service" />
+            <Button
+                android:id="@+id/ViewServicesbutton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/teal"
+                android:text="View Services"
+                android:textColor="@color/white" />
 
+            <Button
+                android:id="@+id/addServicesbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@color/blue"
+                android:text="Add Service" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
